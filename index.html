@@ -481,6 +481,16 @@
       .btn:hover { transform: none; }
     }
   </style>
+<!-- tf-head-meta -->
+<link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="EntraGroups — TenantFleet ecosystem" />
+<meta property="og:description" content="Automated group lifecycle engine for Microsoft Entra ID. Persona-based RBAC, dynamic membership, and multi-tenant scale." />
+<meta property="og:url" content="https://t-granlund.github.io/entragroups/" />
+<meta property="og:image" content="https://t-granlund.github.io/entragroups/favicon.svg" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="EntraGroups — TenantFleet ecosystem" />
+<meta name="twitter:description" content="Automated group lifecycle engine for Microsoft Entra ID. Persona-based RBAC, dynamic membership, and multi-tenant scale." />
 </head>
 <body>
   <svg class="noise-overlay" aria-hidden="true">
@@ -614,5 +624,31 @@
       <li><a href="#">SharePointAgent</a></li>
     </ul>
   </footer>
+<!-- tf-ecosystem-band -->
+<section id="ecosystem" style="background:#0b1410;color:#e7ece8;font-family:'Inter',system-ui,sans-serif;padding:4rem 1.25rem;border-top:1px solid rgba(205,127,67,.2);">
+  <div style="max-width:1100px;margin:0 auto;">
+    <p style="font-family:'JetBrains Mono',ui-monospace,monospace;text-transform:uppercase;letter-spacing:.22em;font-size:.7rem;color:#cd7f43;margin:0 0 .5rem;">The TenantFleet Ecosystem</p>
+    <h2 style="font-size:clamp(1.6rem,3vw,2.4rem);font-weight:300;margin:0 0 1.75rem;">Install &middot; Architecture &middot; Ecosystem</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.25rem;">
+      <div style="background:rgba(255,255,255,.04);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:1.5rem;">
+        <h3 style="margin:0 0 .75rem;font-size:1.1rem;color:#cd7f43;">Install</h3>
+        <pre style="margin:0;overflow:auto;background:#06100c;border:1px solid rgba(255,255,255,.06);border-radius:10px;padding:1rem;"><code style="font-family:'JetBrains Mono',ui-monospace,monospace;font-size:.85rem;color:#cfe3d6;">git clone https://github.com/t-granlund/entragroups.git
+cd entragroups</code></pre>
+        <p style="margin:.85rem 0 0;font-size:.9rem;color:#9fb0a6;">MIT-licensed &middot; open source &middot; fork it and make it yours.</p>
+      </div>
+      <div style="background:rgba(255,255,255,.04);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:1.5rem;">
+        <h3 style="margin:0 0 .75rem;font-size:1.1rem;color:#cd7f43;">Architecture</h3>
+        <p style="margin:0;font-size:.95rem;line-height:1.6;color:#cfd8d2;">Persona resolver → reconciler → Microsoft Graph, with a full before/after audit trail. Membership is a function of who someone is.</p>
+      </div>
+    </div>
+    <nav aria-label="TenantFleet ecosystem" style="display:flex;flex-wrap:wrap;gap:.6rem;margin-top:1.75rem;">
+      <a href="https://t-granlund.github.io/tenantfleet/" style="color:#cfd8d2;text-decoration:none;font-weight:500;padding:.35rem .7rem;border:1px solid rgba(205,127,67,.25);border-radius:999px;font-size:.85rem;">TenantFleet</a><a href="https://t-granlund.github.io/hubforge/" style="color:#cfd8d2;text-decoration:none;font-weight:500;padding:.35rem .7rem;border:1px solid rgba(205,127,67,.25);border-radius:999px;font-size:.85rem;">HubForge</a><a href="https://t-granlund.github.io/entragroups/" style="color:#cd7f43;text-decoration:none;font-weight:700;padding:.35rem .7rem;border:1px solid rgba(205,127,67,.25);border-radius:999px;font-size:.85rem;">EntraGroups</a><a href="https://t-granlund.github.io/tenantforge/" style="color:#cfd8d2;text-decoration:none;font-weight:500;padding:.35rem .7rem;border:1px solid rgba(205,127,67,.25);border-radius:999px;font-size:.85rem;">TenantForge</a><a href="https://t-granlund.github.io/dnsguard/" style="color:#cfd8d2;text-decoration:none;font-weight:500;padding:.35rem .7rem;border:1px solid rgba(205,127,67,.25);border-radius:999px;font-size:.85rem;">DNSGuard</a><a href="https://t-granlund.github.io/rampguard/" style="color:#cfd8d2;text-decoration:none;font-weight:500;padding:.35rem .7rem;border:1px solid rgba(205,127,67,.25);border-radius:999px;font-size:.85rem;">RampGuard</a><a href="https://t-granlund.github.io/sharepoint-agent/" style="color:#cfd8d2;text-decoration:none;font-weight:500;padding:.35rem .7rem;border:1px solid rgba(205,127,67,.25);border-radius:999px;font-size:.85rem;">SharePointAgent</a>
+    </nav>
+    <p style="margin:1.5rem 0 0;font-size:.9rem;color:#9fb0a6;">Part of the
+      <a href="https://t-granlund.github.io/tenantfleet/" style="color:#cd7f43;">TenantFleet</a> ecosystem &middot; see it on
+      <a href="https://tylergranlund.com/work#ecosystem" style="color:#cd7f43;">tylergranlund.com/work#ecosystem</a>.
+    </p>
+  </div>
+</section>
 </body>
 </html>
